@@ -14,7 +14,7 @@ task hello {
   }
 
   runtime {
-        docker: "cr-cn-beijing.volces.com/bio-island/busybox:1.30.0"
+        docker: "paas-tob-dev-cn-beijing.cr.volces.com/infcplibrary/ubuntu:18.04"
         memory: "1 GB"
         cpu: "1"
         bootDiskSizeGb: 10
